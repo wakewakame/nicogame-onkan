@@ -18,11 +18,11 @@ ffmpeg -y -f lavfi -i '
 	aevalsrc=(
 		sin(2 * PI * 440 * (2^((floor(48 + t) - 69) / 12)) * t) * (1 - exp(-80 * mod(t\, 1))) * exp(-8 * mod(t\, 1))
 	):s=48000:d=25
-' -f wav 'piano.wav'
+' -f wav 'sine.wav'
 
 # m4a と ogg に変換
-rm -f piano.m4a piano.ogg
-complete-audio 'piano.wav'
+rm -f sine.m4a sine.ogg
+complete-audio 'sine.wav'
 
 # 不要なファイルを削除
-rm piano.wav
+rm sine.wav

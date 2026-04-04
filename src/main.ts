@@ -3,10 +3,24 @@ import { MIN_NOTE, NOTE_COUNT, DEFAULT_TIME_LIMIT } from "./constants";
 import { createUI } from "./ui";
 import { playIntro, startQuiz } from "./quiz";
 
+declare const window: any;
+
 export function main(param: GameMainParameterObject): void {
+  const mode: {
+    tone: "piano" | "sine";
+  } = {
+    tone: "piano",
+  };
+
+  // クエリパラメータを得る (ブラウザから起動した時用)
+  try {
+    const params = new window.URLSearchParams(window.location.search);
+    mode.tone = params.get("tone") === "sine" ? "sine" : mode.tone;
+  } catch (e) {}
+
 	const assetIds = [...(new Array(NOTE_COUNT))].map((_, i) => {
 		const note = i + MIN_NOTE;
-		return { note, id: `key${note}` };
+		return { note, id: `${mode.tone}${note}` };
 	});
 
 	const scene = new g.Scene({

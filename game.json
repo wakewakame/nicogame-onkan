@@ -4,7 +4,7 @@
 	"fps": 30,
 	"main": "./script/_bootstrap.js",
 	"assets": {
-		"key48": {
+		"piano48": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -17,7 +17,7 @@
 				]
 			}
 		},
-		"key49": {
+		"piano49": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -30,7 +30,7 @@
 				]
 			}
 		},
-		"key50": {
+		"piano50": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -43,7 +43,7 @@
 				]
 			}
 		},
-		"key51": {
+		"piano51": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -56,7 +56,7 @@
 				]
 			}
 		},
-		"key52": {
+		"piano52": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -69,7 +69,7 @@
 				]
 			}
 		},
-		"key53": {
+		"piano53": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -82,7 +82,7 @@
 				]
 			}
 		},
-		"key54": {
+		"piano54": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -95,7 +95,7 @@
 				]
 			}
 		},
-		"key55": {
+		"piano55": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -108,7 +108,7 @@
 				]
 			}
 		},
-		"key56": {
+		"piano56": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -121,7 +121,7 @@
 				]
 			}
 		},
-		"key57": {
+		"piano57": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -134,7 +134,7 @@
 				]
 			}
 		},
-		"key58": {
+		"piano58": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -147,7 +147,7 @@
 				]
 			}
 		},
-		"key59": {
+		"piano59": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -160,7 +160,7 @@
 				]
 			}
 		},
-		"key60": {
+		"piano60": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -173,7 +173,7 @@
 				]
 			}
 		},
-		"key61": {
+		"piano61": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -186,7 +186,7 @@
 				]
 			}
 		},
-		"key62": {
+		"piano62": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -199,7 +199,7 @@
 				]
 			}
 		},
-		"key63": {
+		"piano63": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -212,7 +212,7 @@
 				]
 			}
 		},
-		"key64": {
+		"piano64": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -225,7 +225,7 @@
 				]
 			}
 		},
-		"key65": {
+		"piano65": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -238,7 +238,7 @@
 				]
 			}
 		},
-		"key66": {
+		"piano66": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -251,7 +251,7 @@
 				]
 			}
 		},
-		"key67": {
+		"piano67": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -264,7 +264,7 @@
 				]
 			}
 		},
-		"key68": {
+		"piano68": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -277,7 +277,7 @@
 				]
 			}
 		},
-		"key69": {
+		"piano69": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -290,7 +290,7 @@
 				]
 			}
 		},
-		"key70": {
+		"piano70": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -303,7 +303,7 @@
 				]
 			}
 		},
-		"key71": {
+		"piano71": {
 			"type": "audio",
 			"path": "audio/piano",
 			"systemId": "sound",
@@ -316,9 +316,334 @@
 				]
 			}
 		},
-		"key72": {
+		"piano72": {
 			"type": "audio",
 			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 24000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine48": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 0,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine49": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 1000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine50": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 2000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine51": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 3000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine52": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 4000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine53": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 5000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine54": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 6000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine55": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 7000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine56": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 8000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine57": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 9000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine58": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 10000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine59": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 11000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine60": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 12000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine61": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 13000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine62": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 14000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine63": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 15000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine64": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 16000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine65": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 17000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine66": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 18000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine67": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 19000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine68": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 20000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine69": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 21000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine70": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 22000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine71": {
+			"type": "audio",
+			"path": "audio/sine",
+			"systemId": "sound",
+			"offset": 23000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"sine72": {
+			"type": "audio",
+			"path": "audio/sine",
 			"systemId": "sound",
 			"offset": 24000,
 			"duration": 750,
