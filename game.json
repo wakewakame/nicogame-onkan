@@ -1,0 +1,387 @@
+{
+	"width": 1280,
+	"height": 720,
+	"fps": 30,
+	"main": "./script/_bootstrap.js",
+	"assets": {
+		"key48": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 0,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key49": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 1000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key50": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 2000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key51": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 3000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key52": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 4000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key53": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 5000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key54": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 6000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key55": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 7000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key56": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 8000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key57": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 9000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key58": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 10000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key59": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 11000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key60": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 12000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key61": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 13000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key62": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 14000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key63": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 15000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key64": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 16000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key65": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 17000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key66": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 18000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key67": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 19000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key68": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 20000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key69": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 21000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key70": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 22000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key71": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 23000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"key72": {
+			"type": "audio",
+			"path": "audio/piano",
+			"systemId": "sound",
+			"offset": 24000,
+			"duration": 750,
+			"hint": {
+				"extensions": [
+					".m4a",
+					".ogg"
+				]
+			}
+		},
+		"_bootstrap": {
+			"type": "script",
+			"path": "script/_bootstrap.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"parameterObject": {
+			"type": "script",
+			"path": "script/parameterObject.js",
+			"global": true
+		},
+		"constants": {
+			"type": "script",
+			"path": "script/constants.js",
+			"global": true
+		},
+		"quiz": {
+			"type": "script",
+			"path": "script/quiz.js",
+			"global": true
+		},
+		"ui": {
+			"type": "script",
+			"path": "script/ui.js",
+			"global": true
+		},
+		"background": {
+			"type": "image",
+			"width": 1280,
+			"height": 720,
+			"path": "image/background.png"
+		},
+		"parts": {
+			"type": "image",
+			"width": 696,
+			"height": 1104,
+			"path": "image/parts.png"
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "3",
+		"nicolive": {
+			"supportedModes": [
+				"ranking"
+			],
+			"preferredSessionParameters": {
+				"totalTimeLimit": 82
+			}
+		}
+	},
+	"globalScripts": []
+}
