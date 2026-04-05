@@ -1,7 +1,7 @@
 # 相対音感
 
 ニコニコ生放送で動くゲームです。  
-遊ぶ: https://wakewakame.github.io/nicogame-onkan/index.html
+遊ぶ: [初心者](https://wakewakame.github.io/nicogame-onkan/index.html?black=false&range=single) / [上級者](https://wakewakame.github.io/nicogame-onkan/index.html?tone=sine)
 
 ## 利用したピアノ音源
 

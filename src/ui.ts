@@ -24,7 +24,7 @@ export interface PianoKey {
 /**
  * ゲームのUI要素（フォント、各種ラベル）を生成して scene に追加する
  */
-export function createUI(scene: g.Scene): GameUI {
+export function createUI(scene: g.Scene, enableWhite: boolean, enableBlack: boolean): GameUI {
 	const parts = scene.asset.getImageById("parts");
 
 	const scoreFont = new g.BitmapFont({
@@ -90,6 +90,7 @@ export function createUI(scene: g.Scene): GameUI {
 		const isWhite = KEY_IS_WHITE[i];
 		const size = isWhite ? KEY_WHITE_SIZE : KEY_BLACK_SIZE;
 		const colors = isWhite ? KEY_COLORS.white : KEY_COLORS.black;
+		const enable = (isWhite && enableWhite) || (!isWhite && enableBlack);
 		const entity = new g.FilledRect({
 			scene,
 			cssColor: colors.up,
@@ -97,11 +98,11 @@ export function createUI(scene: g.Scene): GameUI {
 			y: KEY_Y_POSITION,
 			width: size.width,
 			height: size.height,
-			touchable: true,
+			touchable: enable,
 		});
 		const text = new g.Label({
 			scene,
-			text: "",
+			text: enable ? "" : "x",
 			font: scoreFont,
 			fontSize: 7*8,
 			x: (size.width - 7*8) / 2,
@@ -110,11 +111,11 @@ export function createUI(scene: g.Scene): GameUI {
 		});
 		entity.append(text);
 
-		let onDown: (noteInOctave: number) => void = () => {};
+		let onDown: (noteInOctave: number) => void | undefined = undefined;
 
 		entity.onPointDown.add(() => {
 			entity.cssColor = colors.down;
-			onDown(i);
+			onDown?.(i);
 		});
 		entity.onPointUp.add(() => {
 			entity.cssColor = colors.up;

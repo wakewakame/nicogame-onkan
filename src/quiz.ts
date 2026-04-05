@@ -1,4 +1,4 @@
-import { NOTE_NAMES, INTRO_NOTES, MIN_NOTE, NOTE_COUNT } from "./constants";
+import { NOTE_NAMES, INTRO_NOTES, MIN_NOTE, NOTE_COUNT, KEY_IS_WHITE } from "./constants";
 import { PianoKey } from "./ui";
 
 interface QuizContext {
@@ -9,6 +9,9 @@ interface QuizContext {
 	scoreLabel: g.Label;
 	random: g.RandomGenerator;
 	getTime(): number;
+	enableWhite: boolean;
+	enableBlack: boolean;
+	range: "48-72" | "60-71";
 }
 
 /**
@@ -53,7 +56,13 @@ function findNearestPlayableNote(answerNote: number, keyIndex: number): number {
  * クイズを1問出題する
  */
 export function startQuiz(ctx: QuizContext): void {
-	const note = Math.floor(ctx.random.generate() * NOTE_COUNT) + MIN_NOTE;
+	const pattern = [...(new Array(NOTE_COUNT))]
+		.map((_, i) => (i + MIN_NOTE)) // [48, 49, ..., 72]
+		// 有効な鍵盤の音だけを残す
+		.filter((i) => ((KEY_IS_WHITE[i % 12] && ctx.enableWhite) || (!KEY_IS_WHITE[i % 12] && ctx.enableBlack)))
+		.filter((i) => (ctx.range === "48-72") ? true : (i >= 60 && i <= 71));
+
+	const note = pattern[Math.floor(ctx.random.generate() * pattern.length)] ?? 60;
 	let answered = false;
 	let player: g.AudioPlayer | null = null;
 
